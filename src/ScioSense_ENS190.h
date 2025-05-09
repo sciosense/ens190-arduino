@@ -1,0 +1,6 @@
+#ifndef _SCIOSENSE_ENS190_LIBRARY_H_
+#define _SCIOSENSE_ENS190_LIBRARY_H_
+
+#include "ens190.h"
+
+#endif //_SCIOSENSE_ENS190_LIBRARY_H_

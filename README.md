@@ -1,9 +1,6 @@
 # ScioSense ENS190 Arduino Library
 Arduino library for the ENS190 CO2 sensor.
 
-> [!WARNING]  
-> The current repository is under construction. We will update it as soon as possible!.
-
 The ENS190 is a high-performance, non-dispersive infrared (NDIR) CO₂ sensor designed
 for precise and reliable carbon dioxide measurement. It complies with key regulatory
 standards such as California Title 24, RESET, WELL, and ASHRAE. It is an ideal solution
