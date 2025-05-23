@@ -28,11 +28,17 @@ public:
     inline void clear();                            // Clears IO buffers of the Stream device
 
 public:
-    inline Result    update();                      // Reads measurement data;
-    inline uint16_t  getCo2();                      // Returns CO2 concentration in ppm
-    inline uint8_t*  getFirmwareVersion();          // Returns a pointer to the firmware version
-    inline uint16_t  getSerialNumber();             // Returns serial number
-    inline uint32_t  getProductionDate();           // Returns production date
+    inline Result       update                  ();                                             // Reads measurement data;
+    inline uint16_t     getCo2                  ();                                             // Returns CO2 concentration in ppm
+    inline uint8_t*     getFirmwareVersion      ();                                             // Returns a pointer to the firmware version
+    inline uint16_t     getSerialNumber         ();                                             // Returns serial number
+    inline uint8_t*     getProductionDate       ();                                             // Returns production date
+    inline uint16_t     setAbcParameters        (uint16_t periodHrs);                           // Sets the ABC parameters
+    inline uint16_t     setAlarmThresholds      (uint16_t highAlarmThresholdPpm, uint16_t lowAlarmThresholdPpm);    // Sets the alarm thresholds
+    inline uint16_t     getAlarmThresholdHigh   ();                                             // Returns the value of the higher alarm threshold
+    inline uint16_t     getAlarmThresholdLow    ();                                             // Returns the value of the lower alarm threshold
+    inline uint16_t     setCo2Baseline          (uint16_t co2BaselinePpm);                      // Sets the CO2 Baseline
+    inline uint16_t     setBaudrate             (Ens190_Baudrate baudrate);                     // Sets the Baudrate
 
 protected:
     ScioSense_Arduino_Serial_Config     serialConfig;

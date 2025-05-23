@@ -20,6 +20,18 @@ ens190						KEYWORD1
 #######################################
 begin						KEYWORD2
 isConnected					KEYWORD2
+
+update						KEYWORD2
+getCo2						KEYWORD2
+getFirmwareVersion			KEYWORD2
+getSerialNumber				KEYWORD2
+getProductionDate			KEYWORD2
+setAbcParameters			KEYWORD2
+getAlarmThresholdHigh		KEYWORD2
+getAlarmThresholdLow		KEYWORD2
+setCo2Baseline				KEYWORD2
+setBaudrate					KEYWORD2
+
 enableDebugging				KEYWORD2
 disableDebugging			KEYWORD2
 
