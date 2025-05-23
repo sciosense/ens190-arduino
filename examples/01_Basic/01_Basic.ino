@@ -58,14 +58,9 @@ void loop()
 {
     if (ens190.update() == RESULT_OK)
     {
-        Serial.print("CO2: ");
-        Serial.print(ens190.getCo2());
-        Serial.println(" ppm");
-
-
-        Serial.println("-----------------------");
+        Serial.print("CO2[ppm]:");
+        Serial.println(ens190.getCo2());
     }
-    else Serial.println("Result loop not ok");
-
+    
     delay(4000);
 }
