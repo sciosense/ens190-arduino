@@ -44,7 +44,7 @@ Please make sure that you use the correct supply voltage:
 
 ### Example UART with ESP32
 This example shows how to wire a [ESP32DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html#get-started-esp32-devkitc-board-front) 
-with the ENS220 breakout board for UART communication.
+with the ENS190 breakout board for UART communication.
 
 | ENS190 |   ESP32   |
 |:------:|:---------:|
@@ -55,4 +55,3 @@ with the ENS220 breakout board for UART communication.
 
 <img src="images/ens190_pin_out_esp32_uart.png" width="1000">
 
-### ScioSense is a Joint Venture of ams AG
