@@ -39,7 +39,7 @@ For the installation of the ESP32 in the Arduino IDE, see [Arduino ESP32 Install
 
 ### General
 Please make sure that you use the correct supply voltage:
-- The ENS190 runs at VDD = 5 V.
+- The ENS190 runs at VDD = 5V.
 - The serial communication runs at 5V, and supports UART, RS485, and Modbus.
 
 ### Example UART with ESP32
