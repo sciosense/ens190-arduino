@@ -274,7 +274,7 @@ static inline Result Ens190_SetCo2Baseline(ScioSense_Ens190* ens190, uint16_t co
 
     uint8_t rbuff[ENS190_COMMAND_RESPONSE_CO2_BASELINE_LENGTH];
 
-    result = Ens190_Invoke(ens190, commandSetCo2Baseline, ENS190_COMMAND_GET_ALARM_THRESHOLDS_LENGTH, rbuff, ENS190_COMMAND_RESPONSE_CO2_BASELINE_LENGTH);
+    result = Ens190_Invoke(ens190, commandSetCo2Baseline, ENS190_COMMAND_SET_CO2_BASELINE_LENGTH, rbuff, ENS190_COMMAND_RESPONSE_CO2_BASELINE_LENGTH);
     
     if (result == RESULT_OK)
     {
